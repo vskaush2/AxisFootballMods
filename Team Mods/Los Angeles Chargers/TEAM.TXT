@@ -1,0 +1,9 @@
+TeamCity=Los Angeles
+TeamName=Chargers
+TeamAbbrev=LAC
+TeamLogoBG=45,123,198
+TeamLogoAlt=45,123,198
+OffPlaybook=Power Run
+DefPlaybook=Three Four
+League=AFC West
+TeamField=ChargersField

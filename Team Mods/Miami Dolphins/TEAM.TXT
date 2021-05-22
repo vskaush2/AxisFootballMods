@@ -1,0 +1,9 @@
+TeamCity=Miami
+TeamName=Dolphins
+TeamAbbrev=MIA
+TeamLogoBG=0,142,151
+TeamLogoAlt=0,142,151
+OffPlaybook=West Coast
+DefPlaybook=Three Four
+League=AFC East
+TeamField=DolphinsField

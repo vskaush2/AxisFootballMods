@@ -1,0 +1,9 @@
+TeamCity=Oakland
+TeamName=Raiders
+TeamAbbrev=OAK
+TeamLogoBG=0,0,0
+TeamLogoAlt=0,0,0
+OffPlaybook=Power Run
+DefPlaybook=Three Four
+League=AFC West
+TeamField=RaidersField

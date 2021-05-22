@@ -1,0 +1,9 @@
+TeamCity=Arizona
+TeamName=Cardinals
+TeamAbbrev=ARI
+TeamLogoBG=177,4,57
+TeamLogoAlt=177,4,57
+OffPlaybook=Singleback
+DefPlaybook=Four Three
+League=NFC West
+TeamField=CardinalsField

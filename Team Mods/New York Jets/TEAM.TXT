@@ -1,0 +1,9 @@
+TeamCity=New York
+TeamName=Jets
+TeamAbbrev=NYJ
+TeamLogoBG=40,66,57
+TeamLogoAlt=40,66,57
+OffPlaybook=Power Run
+DefPlaybook=Three Four
+League=AFC East
+TeamField=JetsField

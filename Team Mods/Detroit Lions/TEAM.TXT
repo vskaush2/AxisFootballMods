@@ -1,0 +1,9 @@
+TeamCity=Detroit
+TeamName=Lions
+TeamAbbrev=DET
+TeamLogoBG=0,109,176
+TeamLogoAlt=0,109,176
+OffPlaybook=Air Raid
+DefPlaybook=Four Three
+League=NFC North
+TeamField=LionsField
