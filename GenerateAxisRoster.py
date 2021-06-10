@@ -115,26 +115,22 @@ class GenerateAxisRoster:
                                  RGs_df.iloc[:1],
                                  RTs_df.iloc[:1]], axis=0)
 
-        DT_used, LE_used, RE_used=len(DTs_df), len(LEs_df), len(REs_df)
+        DT_used, LE_used, RE_used=2,1,1
         if len(DTs_df) < 2 and len(LEs_df) < 2 and len(REs_df) >= 2:
             DT_used, LE_used, RE_used= 1,1,2
-        elif len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
+        if len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
             DT_used, LE_used, RE_used = 1, 2, 1
-        elif len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
+        if len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
             DT_used, LE_used, RE_used = 1, 2, 1
-        else:
-            DT_used, LE_used, RE_used = 2, 1, 1
         starters_df = pd.concat([starters_df, LEs_df.iloc[:LE_used], DTs_df.iloc[:DT_used], REs_df.iloc[:RE_used]], axis=0)
 
-        MLB_used, LOLB_used, ROLB_used = len(MLBs_df), len(LOLBs_df),len(ROLBs_df)
+        MLB_used, LOLB_used, ROLB_used = 2,1,1
         if len(MLBs_df) < 2 and len(LOLBs_df) < 2 and len(ROLBs_df) >= 2:
             MLB_used, LOLB_used, ROLB_used = 1,1,2
-        elif len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
+        if len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
             MLB_used, LOLB_used, ROLB_used = 1,2,1
-        elif len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
+        if len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
             MLB_used, LOLB_used, ROLB_used = 1,2,1
-        else:
-            MLB_used, LOLB_used, ROLB_used = 2,1,1
 
         starters_df = pd.concat([starters_df, LOLBs_df.iloc[: LOLB_used], MLBs_df.iloc[:MLB_used], ROLBs_df.iloc[:ROLB_used]],
                                 axis=0)
