@@ -1,5 +1,5 @@
 # Axis Football 2020 NFL Roster Mods
-We use Python to change the default football rosters in Axis Football 2020 into custom Madden NFL 2020 rosters. To run the mods:
+We use Python to change the default football rosters in Axis Football 2020 into custom Madden NFL 2020 rosters. To generate the mods:
 
 - Download the project folder from Git.
 - Download Axis Football 2020 from Steam
@@ -8,7 +8,7 @@ We use Python to change the default football rosters in Axis Football 2020 into 
 - Create a new virtual environment running the latest version of Python. 
 - Enter "pip3 install -r requirements.txt" in Command Prompt/Terminal to install all project requirements and dependencies.
 - Enter "jupyter notebook" in Command Prompt/Terminal. 
-- Click on the "AxisFootballMods.ipynb" file on the Jupyter Server.
+- Click on the "AxisFootballModsDemo.ipynb" file on the Jupyter Server.
 - Run each code cell.
   
 In order for the mods to take effect in the game:
