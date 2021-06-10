@@ -15,3 +15,4 @@ In order for the mods to take effect in the game:
 - On Steam, right click on Axis Football 2020 and click on "Manage > Browse local game files"
 - Overwrite the "Team Mods" folder inside the game's "Mods" folder with the "Team Mods" folder inside the project folder. 
 - Run the game in Steam !
+
