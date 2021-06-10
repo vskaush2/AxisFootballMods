@@ -29,7 +29,7 @@ class GenerateAxisRoster:
             madden_roster_URL='https://maddenratings.weebly.com/uploads/1/4/0/9/14097292/{}__madden_nfl_21_.xlsx'.format(self.team.lower().replace(" ",'_'))
             content = requests.get(madden_roster_URL).content
             madden_roster_df = pd.read_excel(content).drop(columns='Team')
-            return madden_roster_df
+            return madden_roster_df.sort_values(by='Overall Rating',ascending=False)
         except:
             return pd.DataFrame()
 
@@ -115,22 +115,29 @@ class GenerateAxisRoster:
                                  RGs_df.iloc[:1],
                                  RTs_df.iloc[:1]], axis=0)
 
+        DT_used, LE_used, RE_used=len(DTs_df), len(LEs_df), len(REs_df)
         if len(DTs_df) < 2 and len(LEs_df) < 2 and len(REs_df) >= 2:
-            starters_df = pd.concat([starters_df, LEs_df, DTs_df, REs_df.iloc[:2]], axis=0)
-        elif len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
-            starters_df = pd.concat([starters_df, LEs_df.iloc[:2], DTs_df, REs_df], axis=0)
+            DT_used, LE_used, RE_used= 1,1,2
         elif len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
-            starters_df = pd.concat([starters_df, LEs_df.iloc[:2], DTs_df, REs_df.iloc[:1]], axis=0)
+            DT_used, LE_used, RE_used = 1, 2, 1
+        elif len(DTs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
+            DT_used, LE_used, RE_used = 1, 2, 1
         else:
-            starters_df = pd.concat([starters_df, LEs_df.iloc[:1], DTs_df.iloc[:2], REs_df.iloc[:1]], axis=0)
+            DT_used, LE_used, RE_used = 2, 1, 1
+        starters_df = pd.concat([starters_df, LEs_df.iloc[:LE_used], DTs_df.iloc[:DT_used], REs_df.iloc[:RE_used]], axis=0)
+
+        MLB_used, LOLB_used, ROLB_used = len(MLBs_df), len(LOLBs_df),len(ROLBs_df)
         if len(MLBs_df) < 2 and len(LOLBs_df) < 2 and len(ROLBs_df) >= 2:
-            starters_df = pd.concat([starters_df, LOLBs_df, MLBs_df, ROLBs_df.iloc[:2]], axis=0)
+            MLB_used, LOLB_used, ROLB_used = 1,1,2
         elif len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) < 2:
-            starters_df = pd.concat([starters_df, LOLBs_df.iloc[:2], MLBs_df, ROLBs_df], axis=0)
+            MLB_used, LOLB_used, ROLB_used = 1,2,1
         elif len(MLBs_df) < 2 and len(LEs_df) >= 2 and len(REs_df) >= 2:
-            starters_df = pd.concat([starters_df, LOLBs_df.iloc[:2], MLBs_df, ROLBs_df.iloc[:1]], axis=0)
+            MLB_used, LOLB_used, ROLB_used = 1,2,1
         else:
-            starters_df = pd.concat([starters_df, LEs_df.iloc[:1], MLBs_df.iloc[:2], ROLBs_df.iloc[:1]], axis=0)
+            MLB_used, LOLB_used, ROLB_used = 2,1,1
+
+        starters_df = pd.concat([starters_df, LOLBs_df.iloc[: LOLB_used], MLBs_df.iloc[:MLB_used], ROLBs_df.iloc[:ROLB_used]],
+                                axis=0)
 
         starters_df = pd.concat([starters_df, CBs_df.iloc[:2], SSs_df.iloc[:1], FSs_df.iloc[:1], CBs_df.iloc[2:4]],
                                 axis=0)
@@ -145,17 +152,17 @@ class GenerateAxisRoster:
                                 Cs_df.iloc[1:2],
                                 RGs_df.iloc[1:2],
                                 RTs_df.iloc[1:2],
-                                LEs_df.iloc[1:2],
-                                DTs_df.iloc[1:2],
-                                REs_df.iloc[1:2],
-                                LOLBs_df.iloc[1:3],
-                                MLBs_df.iloc[1:3],
-                                ROLBs_df.iloc[1:3],
-                                CBs_df.iloc[4:6],
-                                SSs_df.iloc[1:2],
-                                FSs_df.iloc[1:2],
+                                LEs_df.iloc[LE_used:LE_used+1],
+                                DTs_df.iloc[DT_used:DT_used+1],
+                                REs_df.iloc[RE_used:RE_used+1],
+                                LOLBs_df.iloc[LOLB_used:LOLB_used+1],
+                                MLBs_df.iloc[MLB_used:MLB_used+1],
+                                ROLBs_df.iloc[ROLB_used:ROLB_used+1],
+                                CBs_df.iloc[4:],
+                                SSs_df.iloc[1:],
+                                FSs_df.iloc[1:],
                                 Ks_df.iloc[1:2],
-                                Ps_df.iloc[1:2]], axis=0).iloc[:23]
+                                Ps_df.iloc[1:2]], axis=0)
 
         return starters_df, backups_df
 
@@ -174,11 +181,13 @@ class GenerateAxisRoster:
                     new_axis_roster_df[col] = converted_attributes_df[col]
                 else:
                     new_axis_roster_df[col] = old_axis_roster_df[col]
+
+            new_axis_roster_df=new_axis_roster_df.iloc[:53].dropna(how='any',axis=0)
             if len(new_axis_roster_df) == 53:
                 print("SUCCESSFULLY CONVERTED "+self.team)
                 new_axis_roster_df.to_csv(file_path, index=False)
             else:
-                print("FAILED TO CONVERT " + self.team + " DUE TO SHORTAGE OF PLAYERS (ONLY )"+str(len(new_axis_roster_df)))
+                print("FAILED TO CONVERT {} DUE TO SHORTAGE OF PLAYERS (ONLY {} Players)".format(self.team,len(new_axis_roster_df)))
             return new_axis_roster_df
         except:
             print("FAILED TO CONVERT " + self.team)
