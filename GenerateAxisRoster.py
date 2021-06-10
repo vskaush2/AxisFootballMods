@@ -174,8 +174,11 @@ class GenerateAxisRoster:
                     new_axis_roster_df[col] = converted_attributes_df[col]
                 else:
                     new_axis_roster_df[col] = old_axis_roster_df[col]
-
-            new_axis_roster_df.to_csv(file_path, index=False)
+            if len(new_axis_roster_df) == 53:
+                print("SUCCESSFULLY CONVERTED "+self.team)
+                new_axis_roster_df.to_csv(file_path, index=False)
+            else:
+                print("FAILED TO CONVERT " + self.team + " DUE TO SHORTAGE OF PLAYERS (ONLY )"+str(len(new_axis_roster_df)))
             return new_axis_roster_df
         except:
             print("FAILED TO CONVERT " + self.team)
