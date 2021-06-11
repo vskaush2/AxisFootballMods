@@ -1,5 +1,5 @@
 # Axis Football 2020 NFL Roster Mods
-We use Python to change the default football rosters in Axis Football 2020 into custom Madden NFL 2020 rosters. To generate the mods:
+We use Python to change the default football rosters in Axis Football 2020 into custom Madden NFL 21 rosters. To generate the mods:
 
 - Download the project folder from Git.
 - Download Axis Football 2020 from Steam
