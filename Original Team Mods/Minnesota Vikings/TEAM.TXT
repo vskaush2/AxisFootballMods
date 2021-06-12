@@ -1,0 +1,9 @@
+TeamCity=Minnesota
+TeamName=Vikings
+TeamAbbrev=MIN
+TeamLogoBG=79,38,131
+TeamLogoAlt=79,38,131
+OffPlaybook=Singleback
+DefPlaybook=Four Three
+League=NFC North
+TeamField=VikingsField

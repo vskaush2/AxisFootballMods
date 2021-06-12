@@ -1,0 +1,9 @@
+TeamCity=Ottawa
+TeamName=Crusaders
+TeamAbbrev=OTT
+TeamLogoBG=0,0,0
+TeamLogoAlt=0,0,0
+OffPlaybook=Singleback
+DefPlaybook=Four Three
+League=NFL Expansion
+TeamField=CrusadersField

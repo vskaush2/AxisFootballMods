@@ -1,0 +1,9 @@
+TeamCity=Chicago
+TeamName=Bears
+TeamAbbrev=CHI
+TeamLogoBG=28,28,64
+TeamLogoAlt=28,28,64
+OffPlaybook=Power Run
+DefPlaybook=Four Three
+League=NFC North
+TeamField=BearsField

@@ -1,0 +1,9 @@
+TeamCity=Seattle
+TeamName=Seahawks
+TeamAbbrev=SEA
+TeamLogoBG=26,35,59
+TeamLogoAlt=26,35,59
+OffPlaybook=Power Run
+DefPlaybook=Four Three
+League=NFC West
+TeamField=SeahawksField

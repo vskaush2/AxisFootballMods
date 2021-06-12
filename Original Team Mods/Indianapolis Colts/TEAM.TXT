@@ -1,0 +1,9 @@
+TeamCity=Indianapolis
+TeamName=Colts
+TeamAbbrev=IND
+TeamLogoBG=15,35,116
+TeamLogoAlt=15,35,116
+OffPlaybook=Singleback
+DefPlaybook=Four Three
+League=AFC South
+TeamField=ColtsField

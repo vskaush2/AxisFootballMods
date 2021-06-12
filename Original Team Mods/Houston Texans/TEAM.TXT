@@ -1,0 +1,9 @@
+TeamCity=Houston
+TeamName=Texans
+TeamAbbrev=HOU
+TeamLogoBG=202,35,61
+TeamLogoAlt=202,35,61
+OffPlaybook=Power Run
+DefPlaybook=Four Three
+League=AFC South
+TeamField=TexansField

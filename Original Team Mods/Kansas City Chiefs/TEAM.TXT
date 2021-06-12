@@ -1,0 +1,9 @@
+TeamCity=Kansas City
+TeamName=Chiefs
+TeamAbbrev=KC
+TeamLogoBG=200,16,46
+TeamLogoAlt=0,103,120
+OffPlaybook=West Coast
+DefPlaybook=Three Four
+League=AFC West
+TeamField=ChiefsField

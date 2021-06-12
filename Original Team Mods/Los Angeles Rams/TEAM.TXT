@@ -1,0 +1,9 @@
+TeamCity=Los Angeles
+TeamName=Rams
+TeamAbbrev=LAR
+TeamLogoBG=207,181,59
+TeamLogoAlt=207,181,59
+OffPlaybook=West Coast
+DefPlaybook=Four Three
+League=NFC West
+TeamField=RamsField
