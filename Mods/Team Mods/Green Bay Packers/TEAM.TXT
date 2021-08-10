@@ -1,0 +1,9 @@
+TeamCity=Green Bay
+TeamName=Packers
+TeamAbbrev=GB
+TeamLogoBG=32,55,49
+TeamLogoAlt=32,55,49
+OffPlaybook=West Coast
+DefPlaybook=Four Three
+League=NFC North
+TeamField=PackersField

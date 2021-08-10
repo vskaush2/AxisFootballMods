@@ -1,0 +1,9 @@
+TeamCity=Dallas
+TeamName=Cowboys
+TeamAbbrev=DAL
+TeamLogoBG=16,37,74
+TeamLogoAlt=16,37,74
+OffPlaybook=Power Run
+DefPlaybook=Four Three
+League=NFC East
+TeamField=CowboysField

@@ -1,0 +1,9 @@
+TeamCity=Washington
+TeamName=Football Team
+TeamAbbrev=WFT
+TeamLogoBG=91,43,47
+TeamLogoAlt=91,43,47
+OffPlaybook=Singleback
+DefPlaybook=Three Four
+League=NFC East
+TeamField=FootballTeamField

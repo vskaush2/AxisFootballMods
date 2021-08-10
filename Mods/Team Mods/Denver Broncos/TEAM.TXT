@@ -1,0 +1,9 @@
+TeamCity=Denver
+TeamName=Broncos
+TeamAbbrev=DEN
+TeamLogoBG=240,86,34
+TeamLogoAlt=240,86,34
+OffPlaybook=Power Run
+DefPlaybook=Four Three
+League=AFC West
+TeamField=BroncosField

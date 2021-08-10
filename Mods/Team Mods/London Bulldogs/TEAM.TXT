@@ -1,0 +1,9 @@
+TeamCity=London
+TeamName=Bulldogs
+TeamAbbrev=LBD
+TeamLogoBG=5,16,37
+TeamLogoAlt=5,16,37
+OffPlaybook=Air Raid
+DefPlaybook=Four Three
+League=NFL Expansion
+TeamField=BulldogsField

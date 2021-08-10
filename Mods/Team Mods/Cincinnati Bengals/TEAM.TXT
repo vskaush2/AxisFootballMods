@@ -1,0 +1,9 @@
+TeamCity=Cincinnati
+TeamName=Bengals
+TeamAbbrev=CIN
+TeamLogoBG=251,76,2
+TeamLogoAlt=251,76,2
+OffPlaybook=Power Run
+DefPlaybook=Three Four
+League=AFC North
+TeamField=BengalsField

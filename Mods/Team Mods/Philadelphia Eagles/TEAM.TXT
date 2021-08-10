@@ -1,0 +1,9 @@
+TeamCity=Philadelphia
+TeamName=Eagles
+TeamAbbrev=PHI
+TeamLogoBG=0,73,83
+TeamLogoAlt=0,73,83
+OffPlaybook=Singleback
+DefPlaybook=Four Three
+League=NFC East
+TeamField=EaglesField
