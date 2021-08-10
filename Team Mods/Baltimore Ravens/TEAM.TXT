@@ -1,9 +1,0 @@
-TeamCity=Baltimore
-TeamName=Ravens
-TeamAbbrev=BAL
-TeamLogoBG=57,24,123
-TeamLogoAlt=57,24,123
-OffPlaybook=Singleback
-DefPlaybook=Four Three
-League=AFC North
-TeamField=RavensField

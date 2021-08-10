@@ -1,9 +1,0 @@
-TeamCity=New York
-TeamName=Giants
-TeamAbbrev=NYG
-TeamLogoBG=0,26,83
-TeamLogoAlt=0,26,83
-OffPlaybook=Power Run
-DefPlaybook=Three Four
-League=NFC East
-TeamField=GiantsField

@@ -1,9 +1,0 @@
-TeamCity=Tampa Bay
-TeamName=Buccaneers
-TeamAbbrev=TB
-TeamLogoBG=213,10,10
-TeamLogoAlt=213,10,10
-OffPlaybook=West Coast
-DefPlaybook=Four Three
-League=NFC South
-TeamField=TampaField

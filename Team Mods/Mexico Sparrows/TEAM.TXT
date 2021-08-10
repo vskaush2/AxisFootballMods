@@ -1,9 +1,0 @@
-TeamCity=Mexico
-TeamName=Sparrows
-TeamAbbrev=MEX
-TeamLogoBG=0,0,0
-TeamLogoAlt=0,0,0
-OffPlaybook=West Coast
-DefPlaybook=Three Four
-League=NFL Expansion
-TeamField=SparrowsField

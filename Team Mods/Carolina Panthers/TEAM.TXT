@@ -1,9 +1,0 @@
-TeamCity=Carolina
-TeamName=Panthers
-TeamAbbrev=CAR
-TeamLogoBG=0,124,186
-TeamLogoAlt=0,124,186
-OffPlaybook=Pistol
-DefPlaybook=Four Three
-League=NFC South
-TeamField=PanthersField

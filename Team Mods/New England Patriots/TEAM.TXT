@@ -1,9 +1,0 @@
-TeamCity=New England
-TeamName=Patriots
-TeamAbbrev=NE
-TeamLogoBG=0,34,68
-TeamLogoAlt=0,34,68
-OffPlaybook=Singleback
-DefPlaybook=Three Four
-League=AFC East
-TeamField=PatriotsField
