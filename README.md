@@ -22,7 +22,7 @@ We use Python to change the default football rosters in Axis Football 2020 into 
 
 ## Jupyter Server Instructions
   - Open the local `Terminal` on PyCharm.
-  - Enter the command `jupyter notebook` to open up a new Jupyter Server.
+  - Type the command `jupyter notebook` to open up a new Jupyter Server.
   - Click on the `AxisFootballModsDemo.ipynb` file to open the notebook.
   - Run each code cell using the toolbar on top of the window.
 
