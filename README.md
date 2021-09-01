@@ -7,7 +7,7 @@ We use Python to change the default football rosters in Axis Football 2020 into 
 - Purchase and download `Axis Football 2020` on Steam.
 - Download the latest version of Python 3 from https://www.python.org/downloads/.
 
-## Importing Project Folder
+## Importing Project
 - Open PyCharm and select `Get from VCS`.
 - Enter this project's .git link.
 - Specify the download location to be the `PyCharmProjects` folder.
@@ -20,13 +20,13 @@ We use Python to change the default football rosters in Axis Football 2020 into 
 - Type the command `pip3 install -r requirements.txt` to install project dependencies.
 
 
-## Jupyter Server Instructions:
+## Jupyter Server Instructions
   - Open the local `Terminal` on PyCharm.
   - Enter the command `jupyter notebook` to open up a new Jupyter Server.
   - Click on the `AxisFootballModsDemo.ipynb` file to open the notebook.
   - Run each code cell using the toolbar on top of the window.
 
-## Changing Game Files Instructions:
+## Changing Game Files Instructions
 - On Steam, right click on `Axis Football 2020` in the left window pane.
 - Click on `Manage > Browse local game files`.
 - Overwrite the game's current `Mods` folder with the `Mods` folder inside this project's directory.
