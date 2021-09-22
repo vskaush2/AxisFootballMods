@@ -1,9 +1,9 @@
-TeamCity=Tennessee
-TeamName=Titans
+TeamCity=TENNESSEE
+TeamName=TITANS
 TeamAbbrev=TEN
-TeamLogoBG=75,146,219
-TeamLogoAlt=75,146,219
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=AFC South
-TeamField=TitansField
+TeamField=TennesseeField
+PrimaryColor=12, 35, 64
+SecondaryColor=75, 146, 219
+AlternateColor=200, 16, 46
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

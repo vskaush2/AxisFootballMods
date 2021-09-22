@@ -1,9 +1,9 @@
-TeamCity=Carolina
-TeamName=Panthers
+TeamCity=CAROLINA
+TeamName=PANTHERS
 TeamAbbrev=CAR
-TeamLogoBG=0,124,186
-TeamLogoAlt=0,124,186
-OffPlaybook=Pistol
-DefPlaybook=Four Three
-League=NFC South
 TeamField=PanthersField
+PrimaryColor=0, 133, 202
+SecondaryColor=16, 24, 32
+AlternateColor=191, 192, 191
+OffPlaybook=PISTOL
+DefPlaybook=FOUR THREE

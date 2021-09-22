@@ -1,9 +1,9 @@
-TeamCity=Houston
-TeamName=Texans
+TeamCity=HOUSTON
+TeamName=TEXANS
 TeamAbbrev=HOU
-TeamLogoBG=202,35,61
-TeamLogoAlt=202,35,61
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=AFC South
-TeamField=TexansField
+TeamField=HoustonField
+PrimaryColor=3, 32, 47
+SecondaryColor=167, 25, 48
+AlternateColor=255, 255, 255
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

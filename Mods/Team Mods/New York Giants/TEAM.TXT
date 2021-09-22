@@ -1,9 +1,9 @@
-TeamCity=New York
-TeamName=Giants
+TeamCity=NEW YORK
+TeamName=GIANTS
 TeamAbbrev=NYG
-TeamLogoBG=0,26,83
-TeamLogoAlt=0,26,83
-OffPlaybook=Power Run
-DefPlaybook=Three Four
-League=NFC East
-TeamField=GiantsField
+TeamField=NewYorkGField
+PrimaryColor=11, 34, 101
+SecondaryColor=167, 25, 48
+AlternateColor=165, 172, 175
+OffPlaybook=POWER RUN
+DefPlaybook=THREE FOUR

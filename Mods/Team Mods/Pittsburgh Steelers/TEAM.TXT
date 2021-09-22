@@ -1,9 +1,9 @@
-TeamCity=Pittsburgh
-TeamName=Steelers
+TeamCity=PITTSBURGH
+TeamName=STEELERS
 TeamAbbrev=PIT
-TeamLogoBG=255,182,18
-TeamLogoAlt=255,182,18
-OffPlaybook=West Coast
-DefPlaybook=Three Four
-League=AFC North
-TeamField=SteelersField
+TeamField=PittsburghField
+PrimaryColor=255, 182, 18
+SecondaryColor=0, 0, 0
+AlternateColor=165, 172, 175
+OffPlaybook=WEST COAST
+DefPlaybook=THREE FOUR

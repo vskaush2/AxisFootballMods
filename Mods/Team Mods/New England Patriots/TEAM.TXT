@@ -1,9 +1,9 @@
-TeamCity=New England
-TeamName=Patriots
+TeamCity=NEW ENGLAND
+TeamName=PATRIOTS
 TeamAbbrev=NE
-TeamLogoBG=0,34,68
-TeamLogoAlt=0,34,68
-OffPlaybook=Singleback
-DefPlaybook=Three Four
-League=AFC East
-TeamField=PatriotsField
+TeamField=NewEnglandField
+PrimaryColor=0, 34, 68
+SecondaryColor=198, 12, 48
+AlternateColor=176, 183, 188
+OffPlaybook=SINGLEBACK
+DefPlaybook=THREE FOUR

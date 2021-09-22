@@ -1,9 +1,9 @@
-TeamCity=New Orleans
-TeamName=Saints
+TeamCity=NEW ORLEANS
+TeamName=SAINTS
 TeamAbbrev=NO
-TeamLogoBG=210,184,135
-TeamLogoAlt=210,184,135
-OffPlaybook=All Plays
-DefPlaybook=Four Three
-League=NFC South
-TeamField=SaintsField
+TeamField=NewOrleansField
+PrimaryColor=211, 188, 141
+SecondaryColor=0, 0, 0
+AlternateColor=255, 255, 255
+OffPlaybook=ALL PLAYS
+DefPlaybook=FOUR THREE

@@ -1,9 +1,9 @@
-TeamCity=Los Angeles
-TeamName=Chargers
+TeamCity=LOS ANGELES
+TeamName=CHARGERS
 TeamAbbrev=LAC
-TeamLogoBG=45,123,198
-TeamLogoAlt=45,123,198
-OffPlaybook=Power Run
-DefPlaybook=Three Four
-League=AFC West
-TeamField=ChargersField
+TeamField=LosAngelesCField
+PrimaryColor=0, 42, 94
+SecondaryColor=255, 194, 14
+AlternateColor=0, 128, 198
+OffPlaybook=POWER RUN
+DefPlaybook=THREE FOUR

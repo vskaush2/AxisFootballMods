@@ -1,9 +1,9 @@
-TeamCity=Atlanta
-TeamName=Falcons
+TeamCity=ATLANTA
+TeamName=FALCONS
 TeamAbbrev=ATL
-TeamLogoBG=184,30,35
-TeamLogoAlt=184,30,35
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=NFC South
 TeamField=FalconsField
+PrimaryColor=167, 25, 48
+SecondaryColor=0, 0, 0
+AlternateColor=165, 172, 175
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

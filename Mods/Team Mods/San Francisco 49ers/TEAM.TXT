@@ -1,9 +1,9 @@
-TeamCity=San Francisco
-TeamName=49ers
+TeamCity=SAN FRANCISCO
+TeamName=49ERS
 TeamAbbrev=SF
-TeamLogoBG=170,0,0
-TeamLogoAlt=170,0,0
-OffPlaybook=West Coast
-DefPlaybook=Three Four
-League=NFC West
-TeamField=49ersField
+TeamField=SanFrancicoField
+PrimaryColor=170, 0, 0
+SecondaryColor=179, 153, 93
+AlternateColor=0, 0, 0
+OffPlaybook=WEST COAST
+DefPlaybook=THREE FOUR

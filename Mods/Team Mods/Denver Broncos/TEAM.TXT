@@ -1,9 +1,9 @@
-TeamCity=Denver
-TeamName=Broncos
+TeamCity=DENVER
+TeamName=BRONCOS
 TeamAbbrev=DEN
-TeamLogoBG=240,86,34
-TeamLogoAlt=240,86,34
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=AFC West
-TeamField=BroncosField
+TeamField=DenverField
+PrimaryColor=251, 79, 20
+SecondaryColor=0, 34, 68
+AlternateColor=255, 255, 255
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

@@ -1,9 +1,9 @@
-TeamCity=Seattle
-TeamName=Seahawks
+TeamCity=SEATTLE
+TeamName=SEAHAWKS
 TeamAbbrev=SEA
-TeamLogoBG=26,35,59
-TeamLogoAlt=26,35,59
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=NFC West
-TeamField=SeahawksField
+TeamField=SeattleField
+PrimaryColor=0, 34, 68
+SecondaryColor=105, 190, 40
+AlternateColor=165, 172, 175
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

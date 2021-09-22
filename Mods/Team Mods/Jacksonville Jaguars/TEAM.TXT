@@ -1,9 +1,9 @@
-TeamCity=Jacksonville
-TeamName=Jaguars
+TeamCity=JACKSONVILLE
+TeamName=JAGUARS
 TeamAbbrev=JAC
-TeamLogoBG=0,103,120
-TeamLogoAlt=0,103,120
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=AFC South
-TeamField=JaguarsField
+TeamField=JacksonvilleField
+PrimaryColor=215, 162, 42
+SecondaryColor=0, 103, 120
+AlternateColor=16, 24, 32
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

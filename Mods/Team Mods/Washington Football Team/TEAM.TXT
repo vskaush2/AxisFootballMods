@@ -1,9 +1,9 @@
-TeamCity=Washington
-TeamName=Football Team
+TeamCity=WASHINGTON
+TeamName=FOOTBALL TEAM
 TeamAbbrev=WFT
-TeamLogoBG=91,43,47
-TeamLogoAlt=91,43,47
-OffPlaybook=Singleback
-DefPlaybook=Three Four
-League=NFC East
-TeamField=FootballTeamField
+TeamField=WashingtonField
+PrimaryColor=119, 49, 65
+SecondaryColor=255, 182, 18
+AlternateColor=255, 255, 255
+OffPlaybook=SINGLEBACK
+DefPlaybook=THREE FOUR

@@ -1,9 +1,9 @@
-TeamCity=Buffalo
-TeamName=Bills
+TeamCity=BUFFALO
+TeamName=BILLS
 TeamAbbrev=BUF
-TeamLogoBG=0,51,141
-TeamLogoAlt=0,51,141
-OffPlaybook=Pistol
-DefPlaybook=Four Three
-League=AFC East
 TeamField=BillsField
+PrimaryColor=0, 51, 141
+SecondaryColor=198, 12, 48
+AlternateColor=255, 255, 255
+OffPlaybook=PISTOL
+DefPlaybook=FOUR THREE

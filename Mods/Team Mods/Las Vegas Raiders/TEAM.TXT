@@ -1,9 +1,9 @@
-TeamCity=Oakland
-TeamName=Raiders
+TeamCity=LAS VEGAS
+TeamName=RAIDERS
 TeamAbbrev=OAK
-TeamLogoBG=0,0,0
-TeamLogoAlt=0,0,0
-OffPlaybook=Power Run
-DefPlaybook=Three Four
-League=AFC West
-TeamField=RaidersField
+TeamField=LasVegasField
+PrimaryColor=0, 0, 0
+SecondaryColor=165, 172, 175
+AlternateColor=255, 255, 255
+OffPlaybook=POWER RUN
+DefPlaybook=THREE FOUR

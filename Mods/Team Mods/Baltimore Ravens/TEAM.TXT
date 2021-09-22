@@ -1,9 +1,9 @@
-TeamCity=Baltimore
-TeamName=Ravens
+TeamCity=BALTIMORE
+TeamName=RAVENS
 TeamAbbrev=BAL
-TeamLogoBG=57,24,123
-TeamLogoAlt=57,24,123
-OffPlaybook=Singleback
-DefPlaybook=Four Three
-League=AFC North
 TeamField=RavensField
+PrimaryColor=36, 23, 115
+SecondaryColor=0, 0, 0
+AlternateColor=158, 124, 12
+OffPlaybook=SINGLEBACK
+DefPlaybook=FOUR THREE

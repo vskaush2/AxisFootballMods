@@ -1,9 +1,9 @@
-TeamCity=Arizona
-TeamName=Cardinals
+TeamCity=ARIZONA
+TeamName=CARDINALS
 TeamAbbrev=ARI
-TeamLogoBG=177,4,57
-TeamLogoAlt=177,4,57
-OffPlaybook=Singleback
-DefPlaybook=Four Three
-League=NFC West
-TeamField=CardinalsField
+TeamField=ArizonaField
+PrimaryColor=151, 35, 63
+SecondaryColor=0, 0, 0
+AlternateColor=255, 182, 18
+OffPlaybook=SINGLEBACK
+DefPlaybook=FOUR THREE
