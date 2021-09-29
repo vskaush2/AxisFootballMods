@@ -1,9 +1,0 @@
-TeamCity=NEW ENGLAND
-TeamName=PATRIOTS
-TeamAbbrev=NE
-TeamField=NewEnglandField
-PrimaryColor=0, 34, 68
-SecondaryColor=198, 12, 48
-AlternateColor=176, 183, 188
-OffPlaybook=SINGLEBACK
-DefPlaybook=THREE FOUR

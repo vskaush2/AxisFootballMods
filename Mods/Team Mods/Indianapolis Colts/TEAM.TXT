@@ -1,9 +1,0 @@
-TeamCity=INDIANAPOLIS
-TeamName=COLTS
-TeamAbbrev=IND
-TeamField=IndianapolisField
-PrimaryColor=0, 44, 95
-SecondaryColor=162, 170, 173
-AlternateColor=255, 255, 255
-OffPlaybook=SINGLEBACK
-DefPlaybook=FOUR THREE

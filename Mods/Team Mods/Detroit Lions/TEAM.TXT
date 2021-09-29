@@ -1,9 +1,0 @@
-TeamCity=DETROIT
-TeamName=LIONS
-TeamAbbrev=DET
-TeamField=DetroitField
-PrimaryColor=0, 118, 182
-SecondaryColor=176, 183, 188
-AlternateColor=255, 255, 255
-OffPlaybook=AIR RAID
-DefPlaybook=FOUR THREE

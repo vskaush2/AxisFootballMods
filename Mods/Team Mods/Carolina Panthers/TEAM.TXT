@@ -1,9 +1,0 @@
-TeamCity=CAROLINA
-TeamName=PANTHERS
-TeamAbbrev=CAR
-TeamField=PanthersField
-PrimaryColor=0, 133, 202
-SecondaryColor=16, 24, 32
-AlternateColor=191, 192, 191
-OffPlaybook=PISTOL
-DefPlaybook=FOUR THREE

@@ -1,9 +1,0 @@
-TeamCity=NEW YORK
-TeamName=JETS
-TeamAbbrev=NYJ
-TeamField=NewYorkJField
-PrimaryColor=18, 87, 64
-SecondaryColor=0, 0, 0
-AlternateColor=255, 255, 255
-OffPlaybook=POWER RUN
-DefPlaybook=THREE FOUR

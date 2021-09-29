@@ -1,9 +1,0 @@
-TeamCity=DENVER
-TeamName=BRONCOS
-TeamAbbrev=DEN
-TeamField=DenverField
-PrimaryColor=251, 79, 20
-SecondaryColor=0, 34, 68
-AlternateColor=255, 255, 255
-OffPlaybook=POWER RUN
-DefPlaybook=FOUR THREE
