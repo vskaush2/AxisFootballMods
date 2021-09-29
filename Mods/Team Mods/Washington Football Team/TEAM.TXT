@@ -1,0 +1,9 @@
+TeamCity=WASHINGTON
+TeamName=FOOTBALL TEAM
+TeamAbbrev=WFT
+TeamField=WashingtonField
+PrimaryColor=119, 49, 65
+SecondaryColor=255, 182, 18
+AlternateColor=255, 255, 255
+OffPlaybook=SINGLEBACK
+DefPlaybook=THREE FOUR

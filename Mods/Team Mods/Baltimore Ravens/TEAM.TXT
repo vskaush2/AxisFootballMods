@@ -1,0 +1,9 @@
+TeamCity=BALTIMORE
+TeamName=RAVENS
+TeamAbbrev=BAL
+TeamField=RavensField
+PrimaryColor=36, 23, 115
+SecondaryColor=0, 0, 0
+AlternateColor=158, 124, 12
+OffPlaybook=SINGLEBACK
+DefPlaybook=FOUR THREE

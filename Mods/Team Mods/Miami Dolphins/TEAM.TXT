@@ -1,0 +1,9 @@
+TeamCity=MIAMI
+TeamName=DOLPHINS
+TeamAbbrev=MIA
+TeamField=MiamiField
+PrimaryColor=0, 142, 151
+SecondaryColor=252, 76, 2
+AlternateColor=0, 87, 120
+OffPlaybook=WEST COAST
+DefPlaybook=THREE FOUR

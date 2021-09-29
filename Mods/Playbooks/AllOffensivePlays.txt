@@ -1,0 +1,28 @@
+# ====== Playbook Name ==========
+# Names can be no longer than 25 characters
+Name=ALL OFFENSIVE PLAYS
+
+# ====== Playbook Type ==========
+# Options are 'Offense' and 'Defense'
+Type=Offense
+
+# ====== Formations ==========
+# See the spreadsheet for formations and sub-formations that are available to be used
+#
+# All sub formations that share a base formation must be placed in the same formation line
+# There must be at least 1 base formation (Formation1) for offensive playbooks
+# There must be at least 2 base formations (Formation1, Formation2) for defensive playbooks
+#
+# The following formations will be automatically added to offensive playbooks:
+# 	Offensive Special Teams, Goal line, Hail mary, Clock Management
+#
+# The following formations will be automatically added to defensive playbooks:
+# 	Defensive Special Teams, Six Two Plays, Dime plays
+#
+Formation1=IF00,IF01,IF02,IF03,IF04,IF05
+Formation2=ST00,ST01,ST02,ST03,ST04,ST05
+Formation3=IW00,IW01,IW02,IW03,IW04
+Formation4=SI00,SI01,SI02,SI03,SI04,SI05,SI06,SI07
+Formation5=EM01,EM02
+Formation6=PI00,PI01,PI02,PI03,PI04,PI05,PI06
+Formation7=SH00,SH01,SH02,SH03,SH04,SH05,SH06,SH07,SH08,SH09,SH10

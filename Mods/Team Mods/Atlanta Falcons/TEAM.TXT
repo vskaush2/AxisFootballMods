@@ -1,0 +1,9 @@
+TeamCity=ATLANTA
+TeamName=FALCONS
+TeamAbbrev=ATL
+TeamField=FalconsField
+PrimaryColor=167, 25, 48
+SecondaryColor=0, 0, 0
+AlternateColor=165, 172, 175
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE
