@@ -1,9 +1,0 @@
-TeamCity=JACKSONVILLE
-TeamName=JAGUARS
-TeamAbbrev=JAC
-TeamField=JacksonvilleField
-PrimaryColor=215, 162, 42
-SecondaryColor=0, 103, 120
-AlternateColor=16, 24, 32
-OffPlaybook=POWER RUN
-DefPlaybook=FOUR THREE

@@ -1,9 +1,0 @@
-TeamCity=ARIZONA
-TeamName=CARDINALS
-TeamAbbrev=ARI
-TeamField=ArizonaField
-PrimaryColor=151, 35, 63
-SecondaryColor=0, 0, 0
-AlternateColor=255, 182, 18
-OffPlaybook=SINGLEBACK
-DefPlaybook=FOUR THREE

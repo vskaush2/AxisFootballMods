@@ -1,9 +1,0 @@
-TeamCity=SAN FRANCISCO
-TeamName=49ERS
-TeamAbbrev=SF
-TeamField=SanFrancicoField
-PrimaryColor=170, 0, 0
-SecondaryColor=179, 153, 93
-AlternateColor=0, 0, 0
-OffPlaybook=WEST COAST
-DefPlaybook=THREE FOUR

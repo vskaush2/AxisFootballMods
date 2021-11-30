@@ -1,9 +1,0 @@
-TeamCity=Cleveland
-TeamName=Browns
-TeamAbbrev=CLE
-TeamLogoBG=233,56,36
-TeamLogoAlt=233,56,36
-OffPlaybook=Singleback
-DefPlaybook=Four Three
-League=AFC North
-TeamField=BrownsField

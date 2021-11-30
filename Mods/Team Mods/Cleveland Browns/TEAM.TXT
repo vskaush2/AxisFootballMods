@@ -1,9 +1,0 @@
-TeamCity=CLEVELAND
-TeamName=BROWNS
-TeamAbbrev=CLE
-TeamField=ClevelandField
-PrimaryColor=49, 29, 0
-SecondaryColor=255, 60, 0
-AlternateColor=255, 255, 255
-OffPlaybook=SINGLEBACK
-DefPlaybook=FOUR THREE

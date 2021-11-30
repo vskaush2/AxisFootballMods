@@ -1,9 +1,0 @@
-TeamCity=MINNESOTA
-TeamName=VIKINGS
-TeamAbbrev=MIN
-TeamField=MinnesotaField
-PrimaryColor=79, 38, 131
-SecondaryColor=255, 198, 47
-AlternateColor=255, 255, 255
-OffPlaybook=SINGLEBACK
-DefPlaybook=FOUR THREE

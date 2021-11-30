@@ -1,9 +1,0 @@
-TeamCity=SEATTLE
-TeamName=SEAHAWKS
-TeamAbbrev=SEA
-TeamField=SeattleField
-PrimaryColor=0, 34, 68
-SecondaryColor=105, 190, 40
-AlternateColor=165, 172, 175
-OffPlaybook=POWER RUN
-DefPlaybook=FOUR THREE

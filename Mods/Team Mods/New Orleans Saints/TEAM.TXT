@@ -1,9 +1,0 @@
-TeamCity=NEW ORLEANS
-TeamName=SAINTS
-TeamAbbrev=NO
-TeamField=NewOrleansField
-PrimaryColor=211, 188, 141
-SecondaryColor=0, 0, 0
-AlternateColor=255, 255, 255
-OffPlaybook=ALL PLAYS
-DefPlaybook=FOUR THREE

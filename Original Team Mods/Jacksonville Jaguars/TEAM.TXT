@@ -1,9 +1,0 @@
-TeamCity=Jacksonville
-TeamName=Jaguars
-TeamAbbrev=JAC
-TeamLogoBG=0,103,120
-TeamLogoAlt=0,103,120
-OffPlaybook=Power Run
-DefPlaybook=Four Three
-League=AFC South
-TeamField=JaguarsField

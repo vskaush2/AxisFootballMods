@@ -1,9 +1,0 @@
-TeamCity=KANSAS CITY
-TeamName=CHIEFS
-TeamAbbrev=KC
-TeamField=KansasCityField
-PrimaryColor=227, 24, 55
-SecondaryColor=255, 184, 28
-AlternateColor=255, 255, 255
-OffPlaybook=WEST COAST
-DefPlaybook=THREE FOUR

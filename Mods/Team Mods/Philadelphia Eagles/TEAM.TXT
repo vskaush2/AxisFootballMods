@@ -1,9 +1,0 @@
-TeamCity=PHILADELPHIA
-TeamName=EAGLES
-TeamAbbrev=PHI
-TeamField=PhiladelphiaField
-PrimaryColor=0, 76, 84
-SecondaryColor=165, 172, 175
-AlternateColor=0, 0, 0
-OffPlaybook=SINGLEBACK
-DefPlaybook=FOUR THREE

@@ -1,9 +1,0 @@
-TeamCity=Toronto
-TeamName=Monarchs
-TeamAbbrev=TOR
-TeamLogoBG=111,204,255
-TeamLogoAlt=111,204,255
-OffPlaybook=All Plays
-DefPlaybook=Four Three
-League=NFL Expansion
-TeamField=MonarchsField
