@@ -1,0 +1,9 @@
+TeamCity=TAMPA BAY
+TeamName=BUCCANEERS
+TeamAbbrev=TB
+TeamField=TampaBayField
+PrimaryColor=213, 10, 10
+SecondaryColor=255, 121, 0
+AlternateColor=10, 10, 8
+OffPlaybook=WEST COAST
+DefPlaybook=FOUR THREE

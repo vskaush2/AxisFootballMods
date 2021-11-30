@@ -1,0 +1,9 @@
+TeamCity=BUFFALO
+TeamName=BILLS
+TeamAbbrev=BUF
+TeamField=BillsField
+PrimaryColor=0, 51, 141
+SecondaryColor=198, 12, 48
+AlternateColor=255, 255, 255
+OffPlaybook=PISTOL
+DefPlaybook=FOUR THREE

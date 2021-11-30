@@ -1,0 +1,9 @@
+TeamCity=CHICAGO
+TeamName=BEARS
+TeamAbbrev=CHI
+TeamField=BearsField
+PrimaryColor=11, 22, 42
+SecondaryColor=200, 56, 3
+AlternateColor=255, 255, 255
+OffPlaybook=POWER RUN
+DefPlaybook=FOUR THREE

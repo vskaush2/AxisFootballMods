@@ -1,0 +1,9 @@
+TeamCity=LOS ANGELES
+TeamName=RAMS
+TeamAbbrev=LAR
+TeamField=LosAngelesRField
+PrimaryColor=0, 53, 148
+SecondaryColor=255, 163, 0
+AlternateColor=255, 255, 255
+OffPlaybook=WEST COAST
+DefPlaybook=FOUR THREE

@@ -1,0 +1,9 @@
+TeamCity=GREEN BAY
+TeamName=PACKERS
+TeamAbbrev=GB
+TeamField=GreenBayField
+PrimaryColor=32, 55, 49
+SecondaryColor=255, 182, 18
+AlternateColor=255, 255, 255
+OffPlaybook=WEST COAST
+DefPlaybook=FOUR THREE

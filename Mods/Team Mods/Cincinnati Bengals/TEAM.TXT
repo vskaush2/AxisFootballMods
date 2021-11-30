@@ -1,0 +1,9 @@
+TeamCity=CINCINNATI
+TeamName=BENGALS
+TeamAbbrev=CIN
+TeamField=CincinnatiField
+PrimaryColor=251, 79, 20
+SecondaryColor=0, 0, 0
+AlternateColor=255, 255, 255
+OffPlaybook=POWER RUN
+DefPlaybook=THREE FOUR

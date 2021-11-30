@@ -1,0 +1,93 @@
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Washington Football Team / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Washington Football Team / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Toronto Monarchs / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Toronto Monarchs / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Tennessee Titans / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Tennessee Titans / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Tampa Bay Buccaneers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Tampa Bay Buccaneers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Seattle Seahawks / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Seattle Seahawks / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Francisco 49ers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Francisco 49ers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Diego Fleet / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Diego Fleet / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Antonio Commanders / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/San Antonio Commanders / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Salt Lake Stallions / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Salt Lake Stallions / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Pittsburgh Steelers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Pittsburgh Steelers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Philadelphia Eagles / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Philadelphia Eagles / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Ottawa Crusaders / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Ottawa Crusaders / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Orlando Apollos / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Orlando Apollos / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New York Jets / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New York Jets / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New York Giants / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New York Giants / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New Orleans Saints / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New Orleans Saints / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New England Patriots / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/New England Patriots / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Minnesota Vikings / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Minnesota Vikings / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Miami Dolphins / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Miami Dolphins / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Mexico Sparrows / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Mexico Sparrows / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Memphis Express / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Memphis Express / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Los Angeles Rams / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Los Angeles Rams / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Los Angeles Chargers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Los Angeles Chargers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/London Bulldogs / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/London Bulldogs / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Las Vegas Raiders / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Las Vegas Raiders / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Kansas City Chiefs / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Kansas City Chiefs / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Jacksonville Jaguars / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Jacksonville Jaguars / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Indianapolis Colts / ROSTER.CSV
+ERROR: Found 35 headers, should be 33.  Columns should be in this order:
+ERROR:      INDEX, FIRST, LAST, SKIN, NUMBER, Height, Weight, POS, SPEED, TLKBRK, FUMBLE, CATCH, BLKING, THRACC, KCKPWR, KCKACC, BLKBRK, TACKLE, THRPWR, FITNESS, AWARE, AGIL, COVER, HITPWR, ENDUR, VISOR, SLEEVES, BANDS, WRAPS, AGE, POTENTIAL, PORTRAIT, DISCIPLINE
+ERROR:      Using an automatically generated roster instead
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Indianapolis Colts / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Houston Texans / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Houston Texans / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Green Bay Packers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Green Bay Packers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Detroit Lions / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Detroit Lions / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Denver Broncos / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Denver Broncos / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Dallas Cowboys / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Dallas Cowboys / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Cleveland Browns / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Cleveland Browns / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Cincinnati Bengals / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Cincinnati Bengals / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Chicago Bears / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Chicago Bears / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Carolina Panthers / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Carolina Panthers / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Buffalo Bills / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Buffalo Bills / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Birmingham Iron / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Birmingham Iron / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Baltimore Ravens / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Baltimore Ravens / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Atlanta Legends / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Atlanta Legends / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Atlanta Falcons / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Atlanta Falcons / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Arizona Hotshots / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Arizona Hotshots / COACHINGSTAFF.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Arizona Cardinals / ROSTER.CSV
+INFO: Loading file - /Users/VivekKaushik 1/Library/Application Support/Steam/steamapps/common/Axis Football 2021/Mods/Team Mods/Arizona Cardinals / COACHINGSTAFF.CSV
+INFO: Loading Uniforms for Mods Team #39
+INFO: Loading Uniforms for Mods Team #41

@@ -1,0 +1,9 @@
+TeamCity=LOS ANGELES
+TeamName=CHARGERS
+TeamAbbrev=LAC
+TeamField=LosAngelesCField
+PrimaryColor=0, 42, 94
+SecondaryColor=255, 194, 14
+AlternateColor=0, 128, 198
+OffPlaybook=POWER RUN
+DefPlaybook=THREE FOUR
