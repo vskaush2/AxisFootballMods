@@ -177,14 +177,14 @@ class RosterGenerator:
                         new_axis_roster_df[axis_attribute] = new_players_df[madden_attribute]
                     elif type(madden_attribute) == list:
                         new_axis_roster_df[axis_attribute] = new_players_df[madden_attribute].mean(axis=1).apply(lambda x: int(x))
-            new_axis_roster_df.to_csv(file_path)
+            new_axis_roster_df.to_csv(file_path,index=False)
             print("SUCCESSFULLY CONVERTED {} MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER".format(self.team_name,
                                                                                                self.week_num))
             return new_axis_roster_df
 
         except:
             print("FAILED TO CONVERT {} MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER".format(self.team_name, self.week_num))
-            self.axis_roster_df.to_csv(file_path)
+            self.axis_roster_df.to_csv(file_path,index=False)
             return self.axis_roster_df
 
 
