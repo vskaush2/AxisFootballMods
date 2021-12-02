@@ -7,8 +7,8 @@ import json
 with open("Madden_to_Axis_Positions.json" ,'r') as f:
     madden_to_axis_positions_dict = json.load(f)
 
-with open("Axis_To_Madden_Attributes.json",'r') as g:
-    axis_to_madden_attributes_dict = json.load(g)
+with open("Axis_To_Madden_Attributes.json",'r') as f:
+    axis_to_madden_attributes_dict = json.load(f)
 
 with open('Madden_Team_IDs.json', 'r') as f:
     madden_IDs_dict = json.load(f)
@@ -20,7 +20,8 @@ class RosterGenerator:
         self.team_name = team_name
         self.week_num = week_num
         self.madden_ID_number = self.get_madden_ID_number()
-        self.madden_URL = 'https://ratings-api.ea.com/v2/entities/m22-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'.format(self.week_num,                                                                                                                                                                              self.madden_ID_number)
+        self.madden_URL = 'https://ratings-api.ea.com/v2/entities/m22-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
+        self.madden_URL=self.madden_URL.format(self.week_num, self.madden_ID_number)
         self.madden_roster_df = self.get_madden_roster_df()
         self.axis_roster_df = self.get_axis_roster_df()
         self.madden_position_count_dict = self.get_madden_position_count_dict()
@@ -87,9 +88,9 @@ class RosterGenerator:
 
         axis_roster_starting_offense_df= QBs_df.iloc[:1]
 
-        if len(FBs_df) !=0:
+        if len(FBs_df) !=0: # Starting offensive backfield will be HB 1 and FB 1 if a FB exists on the team
             axis_roster_starting_offense_df = pd.concat([axis_roster_starting_offense_df, RBs_df.iloc[:1], FBs_df.iloc[:1]], axis=0)
-        else:
+        else: # Starting offensive backfield will be HB 1 and HB 2 if a FB does not exist on the team
             axis_roster_starting_offense_df = pd.concat([axis_roster_starting_offense_df, RBs_df.iloc[:2]], axis=0)
 
         axis_roster_starting_offense_df = pd.concat([axis_roster_starting_offense_df,
@@ -107,18 +108,18 @@ class RosterGenerator:
 
         axis_roster_starting_defense_df=None
 
-        if len(DTs_df) > 1:
+        if len(DTs_df) > 1: # Starting Defensive Line will be LE 1, DT 1, DT 2, RE 1 if team has least 2 DTs
             axis_roster_starting_defense_df = pd.concat([LEs_df.iloc[:1], DTs_df.iloc[:2], REs_df.iloc[:1]], axis=0)
-        elif len(REs_df) > 1:
+        elif len(REs_df) > 1: # Starting Defensive Line will be LE 1, DT 1, RE 1, RE 2 if team has only 1 DT, but 2 REs
             axis_roster_starting_defense_df = pd.concat([LEs_df.iloc[:1], DTs_df.iloc[:1], REs_df.iloc[:2]], axis=0)
-        elif len(LEs_df) > 1:
+        elif len(LEs_df) > 1: # Starting Defensive Line will be LE 1, LE 2, DT 1, RE 1 if team has only 1 DT and 1 RE, but 2 LEs
             axis_roster_starting_defense_df = pd.concat([LEs_df.iloc[:2], DTs_df.iloc[:1], REs_df.iloc[:2]], axis=0)
 
-        if len(MLBs_df) > 1:
+        if len(MLBs_df) > 1: # Starting Linebackers will be LOLB 1, MLB 1, MLB 2, ROLB 1 if team has at least 2 MLBs
             axis_roster_starting_defense_df = pd.concat([axis_roster_starting_defense_df, LOLBs_df.iloc[:1], MLBs_df.iloc[:2], ROLBs_df.iloc[:1]], axis=0)
-        elif len(ROLBs_df) > 1:
+        elif len(ROLBs_df) > 1: # Starting Linebackers will be LOLB 1, MLB 1, ROLB 1, ROLB 2 if team has only 1 MLB, but 2 ROLBs
             axis_roster_starting_defense_df = pd.concat([axis_roster_starting_defense_df, LOLBs_df.iloc[:1], MLBs_df.iloc[:1], ROLBs_df.iloc[:2]], axis=0)
-        elif len(LOLBs_df) > 1:
+        elif len(LOLBs_df) > 1: # Starting Linebackers will be LOLB 1, LOLB 2, MLB 1, ROLB 1 if team has only 1 MLB and 1 ROLB, but 2 LOLBs
             axis_roster_starting_defense_df = pd.concat([axis_roster_starting_defense_df, LOLBs_df.iloc[:2], MLBs_df.iloc[:1], ROLBs_df.iloc[:1]], axis=0)
 
         axis_roster_starting_defense_df=pd.concat([axis_roster_starting_defense_df,
