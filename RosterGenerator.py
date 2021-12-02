@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import json
 
+madden_database_URL='https://ratings-api.ea.com/v2/entities/m22-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
 
 with open("Madden_to_Axis_Positions.json" ,'r') as f:
     madden_to_axis_positions_dict = json.load(f)
@@ -20,8 +21,7 @@ class RosterGenerator:
         self.team_name = team_name
         self.week_num = week_num
         self.madden_ID_number = self.get_madden_ID_number()
-        self.madden_URL = 'https://ratings-api.ea.com/v2/entities/m22-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
-        self.madden_URL=self.madden_URL.format(self.week_num, self.madden_ID_number)
+        self.madden_database_URL=madden_database_URL.format(self.week_num, self.madden_ID_number)
         self.madden_roster_df = self.get_madden_roster_df()
         self.axis_roster_df = self.get_axis_roster_df()
         self.madden_position_count_dict = self.get_madden_position_count_dict()
@@ -54,7 +54,7 @@ class RosterGenerator:
 
         if update:
             try:
-                madden_roster_df = pd.DataFrame(requests.get(self.madden_URL).json()['docs'])
+                madden_roster_df = pd.DataFrame(requests.get(self.madden_database_URL).json()['docs'])
                 madden_cols = ['firstName', 'lastName', 'position', 'jerseyNum', 'age', 'height', 'weight', 'overall_rating'] + \
                               [col for col in madden_roster_df.columns if '_rating' in col and 'overall' not in col]
                 madden_roster_df = madden_roster_df[madden_cols]
@@ -159,7 +159,6 @@ class RosterGenerator:
 
         axis_roster_backups_df.dropna(axis=0,how='any',inplace=True)
         axis_roster_backups_df=axis_roster_backups_df.iloc[:23]
-
         return axis_roster_backups_df
 
 
@@ -179,12 +178,10 @@ class RosterGenerator:
                     elif type(madden_attribute) == list:
                         new_axis_roster_df[axis_attribute] = new_players_df[madden_attribute].mean(axis=1).apply(lambda x: int(x))
             new_axis_roster_df.to_csv(file_path,index=False)
-            print("SUCCESSFULLY CONVERTED {} MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER".format(self.team_name,
-                                                                                               self.week_num))
             return new_axis_roster_df
 
         except:
-            print("FAILED TO CONVERT {} MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER".format(self.team_name, self.week_num))
+            print("FAILED TO CONVERT MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER FOR {} !".format(self.week_num, self.team_name))
             self.axis_roster_df.to_csv(file_path,index=False)
             return self.axis_roster_df
 
