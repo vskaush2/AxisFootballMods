@@ -40,7 +40,7 @@ class RosterGenerator:
 
     def get_madden_roster_df(self, update=False):
         madden_roster_df = pd.DataFrame()
-        directory = "Madden 22 Rosters"
+        directory = "Madden Rosters"
         try:
             os.makedirs(directory)
         except:
