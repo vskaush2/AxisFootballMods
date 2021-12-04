@@ -5,7 +5,7 @@ We use Python to change the default football rosters in Axis Football 2021 into 
 - Download PyCharm (free edition) from https://www.jetbrains.com/pycharm/.
 - Download Steam from https://store.steampowered.com/.
 - Purchase and download `Axis Football 2021` on Steam.
-- Download the latest version of Python 3 from https://www.python.org/downloads/.
+- Download Python 3.10 from https://www.python.org/downloads/.
 
 ## Importing Project
 - Open PyCharm and select `Get from VCS`.
