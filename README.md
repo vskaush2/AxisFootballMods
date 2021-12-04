@@ -12,7 +12,7 @@ We use Python to change the default football rosters in Axis Football 2021 into 
 - Enter this project's .git link.
 - Specify the download location to be the `PyCharmProjects` folder.
 
-## Installying Project Dependencies Automatically
+## Installing Project Dependencies Automatically
 - You may be prompted by PyCharm to install a Virtual Environment based on the `requirements.txt` file.
 - Follow the onscreen instructions to do so.
 - Make sure you specify your installed Python 3 for creating the Virtual Environment.
