@@ -28,7 +28,6 @@ class RosterGenerator:
         self.axis_roster_starting_offense_df = self.get_axis_roster_starting_offense_df()
         self.axis_roster_starting_defense_df = self.get_axis_roster_starting_defense_df()
         self.axis_roster_starting_ST_df = self.get_axis_roster_starting_ST_df()
-
         self.axis_roster_starters_df = self.get_axis_roster_starters_df()
         self.axis_roster_backups_df = self.get_axis_roster_backups_df()
 
