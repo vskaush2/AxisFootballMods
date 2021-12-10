@@ -177,7 +177,12 @@ class RosterGenerator:
                         new_axis_roster_df[axis_attribute] = new_players_df[madden_attribute]
                     elif type(madden_attribute) == list:
                         new_axis_roster_df[axis_attribute] = new_players_df[madden_attribute].mean(axis=1).apply(lambda x: int(x))
-            new_axis_roster_df.to_csv(file_path,index=False)
+
+            new_axis_roster_df.dropna(how='any',axis=0,inplace=True)
+            if len(new_axis_roster_df) != 53:
+                new_axis_roster_df = self.axis_roster_df.copy()
+
+            new_axis_roster_df.to_csv(file_path, index=False)
             return new_axis_roster_df
 
         except:
