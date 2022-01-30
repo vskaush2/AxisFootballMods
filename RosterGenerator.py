@@ -24,6 +24,8 @@ class RosterGenerator:
         self.madden_database_URL = madden_database_URL.format(self.week_num, self.madden_ID_number)
         if self.week_num == '19':
             self.madden_database_URL = self.madden_database_URL.replace("week-19","wild-card-round")
+        if self.week_num == '20':
+            self.madden_database_URL = self.madden_database_URL.replace("week-20","divisional-round")
         self.madden_roster_df = self.get_madden_roster_df()
         self.axis_roster_df = self.get_axis_roster_df()
         self.madden_position_count_dict = self.get_madden_position_count_dict()
