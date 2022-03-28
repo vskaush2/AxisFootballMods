@@ -1,11 +1,11 @@
 # Axis Football 2021 NFL Roster Mods
-We use Python to change the default football rosters in Axis Football 2021 into custom Madden NFL 22 rosters. We update the baseline mods from the link: https://netorg4493362-my.sharepoint.com/:f:/g/personal/info_vault-interactive_com/ElWUoN0vbwVIrw1AxY5L7jMB8vDlezT2eXz4OURwQvBPmA?e=roW0JC
+We use Python to change the default football rosters in Axis Football 2021 into custom Madden NFL 22 rosters. We update the baseline mods from this [link](https://netorg4493362-my.sharepoint.com/:f:/g/personal/info_vault-interactive_com/ElWUoN0vbwVIrw1AxY5L7jMB8vDlezT2eXz4OURwQvBPmA?e=roW0JC): 
 
 ## Downloading Requirements
-- Download PyCharm (free edition) from https://www.jetbrains.com/pycharm/.
-- Download Steam from https://store.steampowered.com/.
+- Download [PyCharm (free edition)](https://www.jetbrains.com/pycharm/).
+- Download [Steam] (https://store.steampowered.com/).
 - Purchase and download `Axis Football 2021` on Steam.
-- Download Python 3.10 from https://www.python.org/downloads/.
+- Download [Python 3.10](https://www.python.org/downloads/).
 
 ## Importing Project
 - Open PyCharm and select `Get from VCS`.
