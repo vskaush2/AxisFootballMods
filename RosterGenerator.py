@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import json
 
-madden_database_URL='https://ratings-api.ea.com/v2/entities/m22-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
+madden_database_URL='https://ratings-api.ea.com/v2/entities/m23-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
 
 with open("Madden_to_Axis_Positions.json" ,'r') as f:
     madden_to_axis_positions_dict = json.load(f)
@@ -22,6 +22,8 @@ class RosterGenerator:
         self.week_num = week_num
         self.madden_ID_number = self.get_madden_ID_number()
         self.madden_database_URL = madden_database_URL.format(self.week_num, self.madden_ID_number)
+        if self.week_num =='0':
+            self.madden_database_URL = self.madden_database_URL.replace("week-0","launch-ratings")
         if self.week_num == '19':
             self.madden_database_URL = self.madden_database_URL.replace("week-19","wild-card-round")
         if self.week_num == '20':
