@@ -132,9 +132,12 @@ class RosterGenerator:
             axis_roster_starting_defense_df = pd.concat([axis_roster_starting_defense_df, LOLBs_df.iloc[:2], MLBs_df.iloc[:1], ROLBs_df.iloc[:1]], axis=0)
 
         axis_roster_starting_defense_df=pd.concat([axis_roster_starting_defense_df,
-                                                   CBs_df.iloc[:1], CBs_df.iloc[2:3],
-                                                   SSs_df.iloc[:1], FSs_df.iloc[:1],
-                                                   CBs_df.iloc[1:2], CBs_df.iloc[3:4]] , axis=0)
+                                                   CBs_df.iloc[:1],
+                                                   FSs_df.iloc[:1],
+                                                   SSs_df.iloc[:1],
+                                                   CBs_df.iloc[1:2],
+                                                   CBs_df.iloc[2:3],
+                                                   CBs_df.iloc[3:4]] , axis=0)
 
         axis_roster_starting_defense_df.dropna(axis=0,how='any',inplace=True)
 
