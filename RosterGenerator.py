@@ -160,14 +160,29 @@ class RosterGenerator:
         Ks_df, Ps_df =\
             [unused_players_df[unused_players_df['position'] ==pos] for pos in self.madden_position_count_dict.keys()]
 
-        axis_roster_backups_df=pd.concat([QBs_df.iloc[:4],
-                                          RBs_df.iloc[:4], FBs_df.iloc[:1],
-                                          WRs_df.iloc[:4], TEs_df.iloc[:2],
-                                          LTs_df.iloc[:1], LGs_df.iloc[:1], Cs_df.iloc[:1], RGs_df.iloc[:1], RTs_df.iloc[:1],
-                                          LEs_df.iloc[:2], DTs_df.iloc[:2], REs_df.iloc[:2],
-                                          LOLBs_df.iloc[:3], MLBs_df.iloc[:3], ROLBs_df.iloc[:3],
-                                          CBs_df.iloc[:4], SSs_df.iloc[:2], FSs_df.iloc[:2],
-                                          Ks_df.iloc[:1], Ps_df.iloc[:1]],axis=0)
+
+        axis_roster_backups_df=pd.concat([QBs_df.iloc[:2],
+                                          RBs_df.iloc[:2],
+                                          FBs_df,
+                                          WRs_df.iloc[:4],
+                                          TEs_df.iloc[:2],
+                                          LTs_df.iloc[:1],
+                                          LGs_df.iloc[:1],
+                                          Cs_df.iloc[:1],
+                                          RGs_df.iloc[:1],
+                                          RTs_df.iloc[:1],
+                                          LEs_df,
+                                          DTs_df,
+                                          REs_df,
+                                          LOLBs_df,
+                                          MLBs_df,
+                                          ROLBs_df,
+                                          CBs_df,
+                                          SSs_df,
+                                          FSs_df,
+                                          Ks_df,
+                                          Ps_df],axis=0)
+
 
         axis_roster_backups_df.dropna(axis=0,how='any',inplace=True)
         axis_roster_backups_df=axis_roster_backups_df.iloc[:23]
