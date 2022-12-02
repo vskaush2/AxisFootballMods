@@ -177,7 +177,7 @@ class RosterGenerator:
                                           LOLBs_df,
                                           MLBs_df,
                                           ROLBs_df,
-                                          CBs_df,
+                                         CBs_df,
                                           SSs_df,
                                           FSs_df,
                                           Ks_df,
