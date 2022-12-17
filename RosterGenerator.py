@@ -207,15 +207,22 @@ class RosterGenerator:
 
             new_axis_roster_df.dropna(how='any',axis=0,inplace=True)
             if len(new_axis_roster_df) != 53:
-                new_axis_roster_df = self.axis_roster_df.copy()
-
-            new_axis_roster_df.to_csv(file_path, index=False)
-            return new_axis_roster_df
+                if os.path.exists(file_path):
+                    try:
+                        new_axis_roster_df = pd.read_csv(file_path)
+                        print("REVERTED TO EARLIER AXIS ROSTER FOR {}".format(self.team_name))
+                    except:
+                        new_axis_roster_df = self.axis_roster_df.copy()
+                else:
+                    new_axis_roster_df = self.axis_roster_df.copy()
 
         except:
             print("FAILED TO CONVERT MADDEN WEEK {} ROSTER INTO AN AXIS ROSTER FOR {} !".format(self.week_num, self.team_name))
-            self.axis_roster_df.to_csv(file_path,index=False)
-            return self.axis_roster_df
+            new_axis_roster_df = self.axis_roster_df.copy()
+
+
+        new_axis_roster_df.to_csv(file_path,index=False)
+        return new_axis_roster_df
 
 
 
