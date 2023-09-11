@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import json
 
-madden_database_URL='https://ratings-api.ea.com/v2/entities/m23-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
+madden_database_URL='https://ratings-api.ea.com/v2/entities/m24-ratings?filter=iteration:week-{}%20AND%20teamId:({})&sort=overall_rating:DESC,firstName:ASC&limit=100&offset=0'
 
 with open("Madden_to_Axis_Positions.json" ,'r') as f:
     madden_to_axis_positions_dict = json.load(f)
